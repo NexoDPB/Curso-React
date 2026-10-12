@@ -1,0 +1,62 @@
+.cafeteria {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 40px;
+  font-family: system-ui, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #61DAFB;
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+.saludo {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 32px;
+}
+.pedidos {
+  margin-bottom: 32px;
+}
+.pedidos p {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+button {
+  background: #61DAFB;
+  color: #1a1a2e;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #4fc4e6;
+}
+.nombre {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+label {
+  font-size: 0.9rem;
+  color: #666;
+}
+input {
+  padding: 10px 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  text-align: center;
+  width: 250px;
+  transition: border-color 0.2s;
+}
+input:focus {
+  outline: none;
+  border-color: #61dafb;
+}
