@@ -1,12 +1,4 @@
 import "./App.css";
-{
-  /*
-  This is a hook that creates a state variable.
-  This returns an array: [currentValue, updateFunction]
-  
-  */
-}
-
 import { useState } from "react";
 
 function App() {
