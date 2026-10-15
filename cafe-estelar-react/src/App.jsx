@@ -1,4 +1,5 @@
 import "./App.css";
+{/* This is a hook */}
 import { useState } from "react";
 
 function App() {
