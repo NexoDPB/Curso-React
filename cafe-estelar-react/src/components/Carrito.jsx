@@ -1,5 +1,5 @@
+{/* less useStatus = less bug = code more simple */}
 import { useState } from "react";
-
 function Carrito() {
   const [items, setItems] = useState([
     { nombre: "Café Nebulosa", precio: 3.5 },
@@ -10,6 +10,9 @@ function Carrito() {
   const cantidad = items.length;
 
   function eliminarItem(index) {
+    {
+      /* it is same like filter((item, posicion) => posicion !== index) only here isn't important item (_) */
+    }
     setItems((prev) => prev.filter((_, i) => i !== index));
   }
 
